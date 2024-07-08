@@ -30,4 +30,7 @@ export default {
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 yarn add gh-pages --save-dev
+
+
 yarn run deploy
+https://thiagodsla.github.io/portfolio/

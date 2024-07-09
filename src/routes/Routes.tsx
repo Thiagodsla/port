@@ -5,7 +5,7 @@ import App from '../App.tsx'
 
 export default createBrowserRouter([
   {
-    path: "/",
+    path: "/portfolio/",
     element: <App/>,
     errorElement: <ErrorPage />,
   },

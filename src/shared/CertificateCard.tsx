@@ -1,7 +1,7 @@
 
 import './Card.css'
 
-export function CertificateCard(props){
+export function CertificateCard(props: any){
   return (
     
     <div className='card' style={{backgroundImage: `url("https://cdn.icon-icons.com/icons2/2601/PNG/512/certificate_icon_155896.png")` }}>

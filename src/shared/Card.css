@@ -1,0 +1,11 @@
+.card{
+  border: 1px solid;
+  border-radius: 1em;
+  vertical-align: middle;
+  text-align: center; 
+  width: 25em;
+  background-image: `url('https://cdn.icon-icons.com/icons2/2601/PNG/512/certificate_icon_155896.png')`;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-size: 20%;
+}

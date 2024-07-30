@@ -1,15 +1,33 @@
+import CardMembershipIcon from '@mui/icons-material/CardMembership';
 
-import './Card.css'
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import Typography from '@mui/material/Typography';
+import { CardActionArea } from '@mui/material';
 
-export function CertificateCard(props: any){
+import './shared_css/Card.css'
+
+interface CertificateCardProps {
+  certificate_link: string,
+  certificate_text: string,
+}
+
+export function CertificateCard({certificate_link, certificate_text}: CertificateCardProps){
   return (
-    
-    <div className='card' style={{backgroundImage: `url("https://cdn.icon-icons.com/icons2/2601/PNG/512/certificate_icon_155896.png")` }}>
-      <a href={props.certificate_link} target="_blank">
-        {/* <img src={'https://cdn.icon-icons.com/icons2/2601/PNG/512/certificate_icon_155896.png'} className="certificate" alt="avatar" /> */}
-        {props.certificate_text}
-      </a>
-    </div>
+    <Card sx={{ maxWidth: 345 }}>
+      <CardActionArea>
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            <CardMembershipIcon/>
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            <a href={certificate_link} target="_blank">
+              {certificate_text}
+            </a>
+          </Typography>
+        </CardContent>
+      </CardActionArea>
+    </Card>
     
   )
 } 

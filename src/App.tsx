@@ -11,7 +11,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 // import { dayjsSetup } from './utility/timeJs.helper'
 
 
-function App(props: MyAppProps) {
+function App() {
   return (
     // <>
     <ChakraProvider  >

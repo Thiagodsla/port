@@ -1,5 +1,5 @@
-import { CertificateCard } from '../shared/CertificateCard.tsx'
-import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
+// import { CertificateCard } from '../shared/CertificateCard.tsx'
+// import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import { Box } from "@chakra-ui/react"
 import { Step, StepDescription, StepIcon, StepIndicator, StepNumber, StepSeparator, StepStatus, StepTitle, Stepper, useSteps } from '@chakra-ui/react'
 import { Grid, GridItem } from '@chakra-ui/react'
